@@ -1,1 +1,3 @@
-docker build -f Dockerfile -t "straata:java8"
+#!/bin/bash
+
+docker build -f Dockerfile.java8 -t "straata:java8" .
